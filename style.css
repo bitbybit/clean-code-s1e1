@@ -3,35 +3,43 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .description {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .description-picture {
   width: 100%;
 }
+
 .description-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .description { text-align: center;
+  .description {
+    text-align: center;
   }
 }
+
 .container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add-new-task-form {
   display: flex;
 }
+
 .tasks {
   margin:0;
   padding: 0px;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -42,14 +50,17 @@
   cursor: pointer;
   outline:none;
 }
+
 .btn:hover {
   color: #3a3A3a;
 }
+
 .task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .header {
   color: #333;
   font-weight: 700;
@@ -59,6 +70,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -75,10 +87,10 @@
   outline:none;
   width: 226px
 }
+
 .task-input:focus {
   color: #333;
 }
-
 
 .add-new-task-label {
   color: #333;
@@ -90,6 +102,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .task-input#new-task-input {
   width: 318px;
 }
@@ -104,6 +117,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task-row .task-checkbox, .task-row .task-label, .task-row .task-input, .task-row .btn {
   vertical-align: middle;
 }
@@ -112,6 +126,7 @@
   margin: 0 10px;
   outline:none;
 }
+
 .task-label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -124,6 +139,7 @@
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-btn-picture:hover {
   transform: rotateZ(0);
 }
